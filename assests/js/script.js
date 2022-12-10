@@ -47,3 +47,18 @@ timeBlock.each(function () {
     }
     $(this).val(localStorage.getItem(parent.attr("id")));
   });
+
+  // Setting the click function and storage information
+  $(".saveBtn").on("click", function () {
+    var userText = $(this).siblings(".time-block").val();
+    //   console.log(userText);
+  
+    var hourTask = $(this).parents(".row").attr("id");
+    //is this value correct?
+    //   console.log(hourTask)
+  
+    // Send to localStorage
+    localStorage.setItem(hourTask, userText);
+    
+    alert("Get Item from Local Storage: ", localStorage.getItem(hourTask));
+  });
