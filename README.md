@@ -10,7 +10,12 @@ Using Moment.js and jQuery, when the user views the page with the current time, 
 
 ## Installation
 
-Project link: https://hollusam.github.io/code-quiz/
+Project link:https://hollusam.github.io/Work-Day-Scheduler/
+
+## Tech/framework used
+
+Built with
+### VS Code
 
 ## Usage
 
@@ -43,7 +48,7 @@ Samuel: https://instagram.com/hollusam
 
 Philip Howley (My Instructor)
 
-Nic Catania
+Nic Catania (My personal TA)
 
 All the TAs of Triology Bootcamp
 
